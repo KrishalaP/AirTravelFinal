@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+.nav img:last-child{
+    padding-left: 50px;
+}
+p{
+    font-family: "Robotto";
+}
+body{
+
+    background-image: url(Hero\ \(1\).png);
+    background-repeat:no-repeat ;
+    background-position: center top;
+    background-size: 730px 820px;
+    font-family: "Poppins";
+   
+    
+}
+.content:nth-child(1), .content:nth-child(2) {
+    border-right: 1px solid gray;
+}
+
+
+input{
+    border: none;
+}
+
+
+.form form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+}
+.content:last-child img{
+    padding-top: 25px;
+}
+.content:nth-child(1){
+    margin-left: 5px;
+}
+.form11{
+    background-color: white;
+    width: 870px;
+   height: 130px;
+   flex-shrink: 0;
+   border-radius: 20px;
+
+}
+.content{
+    padding-right: 20px;
+    width: calc(25% -5px);
+    text-align: center;
+    padding-top: 10px;
+   
+}
+
+.alignn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+   }
+
+
+.booking{
+    border-radius: 20px 120px 0px 0px;
+    background: #212121;
+    padding: 10px;
+    width: 180px;
+   height: 40px;
+    flex-shrink: 0;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -740px;
+   
+    
+}
+
+.background{
+    border-radius: 0px 20px 20px 20px;
+    border: 1px solid rgba(81, 77, 89, 0.10);
+    background: rgba(255, 255, 255, 0.65);
+    box-shadow: 0px 0px 0px 0px rgba(81, 77, 89, 0.15), 0px 12px 27px 0px rgba(81, 77, 89, 0.15), 0px 49px 49px 0px rgba(81, 77, 89, 0.13), 0px 110px 66px 0px rgba(81, 77, 89, 0.08), 0px 195px 78px 0px rgba(81, 77, 89, 0.02), 0px 304px 85px 0px rgba(81, 77, 89, 0.00);
+    backdrop-filter: blur(40px);
+    width: 920px;
+    height: 180px;
+    flex-shrink: 0;
+    padding: 20px;
+
+}
+input{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 17px;
+    color: black;
+}
+label{
+    color: gray;
+    vertical-align: top;
+    font-size: 17px;
+    text-align: center;
+   
+
+}
+
+
+.content:nth-child(2) img{
+    margin-right: 5px;
+}
+
+
+
+
+/* section 2 css */
+#section2{
+    margin-top: 300px;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1{
+    padding-right: 10px;
+    width: calc(25% - 30px);
+    text-align: center;
+}
+#section2 h1{
+    padding-bottom: 80px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    color: #514D59;
+}
+.box1 img{
+    width: 70px;
+    padding-bottom: 30px;
+}
+.box1 h3{
+    padding-bottom: 10px;
+}
+#section2 #last{
+    padding-right:-10px;
+}
+/* section3 */
+section{
+    padding-top: 125px;
+    padding-bottom: 100px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+}
+.rome{
+    width: 50%;
+}
+#text h2, #text1 h2, #text2 h2{
+    font-size: 65px;
+    color: #514D59;
+    padding-bottom: 35px;
+    width: 90%;
+}
+#text p, #text1 p, #text2 p{
+    padding-bottom: 50px;
+    text-align: left;
+    width: 90%;
+    font-size: 20px;
+}
+#text a, #text1 a, #text2 a{
+    text-decoration: none;
+    color: #7000FF;
+    font-size: 18px;
+    font-weight: bold;
+}
+#section3{
+    background-color: #FAFAFA;
+}
+#reverse img{
+    padding-right: -30px;
+    padding-left: 30px;
+    
+}
+/* section 4 */
+#section4 h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #514D59;
+    font-size: 60px;
+}
+#section4 h3{
+    font-size: 20px;
+    color: #514D59;
+
+}
+#section4 p{
+   width: 77%;
+   color: #514D59;
+   font-size: 20px;
+}
+#section4{
+    background-image: url(reviews.png);
+    background-repeat: no-repeat;
+    padding-bottom: 350px;
+
+}
+/* section5 */
+#section5{
+    background-color: black;
+    color: white;
+}
+.parent1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.last{
+    width: 20%
+}
+.last a{
+    text-decoration: none;
+    color: white;
+    
+}
+.last ul{
+    list-style: none;
+}
+.background{
+    
+    background-color: #d8d7db;
+   
+}
+.logo11 img:last-child{
+    width: 200px;
+
+}
+.icon{
+    margin-top: 30px;
+}
+.last{
+    line-height: 1.5;
+}
+.last h3{
+    padding-bottom: 10px;
+}
